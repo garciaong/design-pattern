@@ -4,6 +4,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
+ * Design pattern that enables the creation of new objects by copying an existing object, 
+ * referred to as the "prototype." This approach is particularly useful when object creation 
+ * is complex, time-consuming, or resource-intensive, or when the system needs to create 
+ * objects without knowing their concrete classes.
  * Delegate object duplication or cloning to actual object being cloned 
  */
 public class Prototype {

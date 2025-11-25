@@ -1,5 +1,11 @@
 package com.designpattern.creational.factory;
 
+/**
+ * Design pattern that provides an interface for creating objects in a superclass, 
+ * but lets subclasses decide which class to instantiate. It centralizes object creation, 
+ * making the code more maintainable and flexible by decoupling the client from the concrete 
+ * implementation details of the objects being created. 
+ */
 public class Factory {
     public static void main(String[] args) {
         Restaurant restaurant = new ClassicRestaurantFactory();

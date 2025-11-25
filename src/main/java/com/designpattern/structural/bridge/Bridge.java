@@ -1,5 +1,10 @@
 package com.designpattern.structural.bridge;
 
+/**
+ * Design pattern that aims to decouple an abstraction from its implementation, allowing 
+ * them to vary independently. This means that changes to one part (e.g., the abstraction) 
+ * do not necessitate changes to the other part (e.g., the implementation). 
+ */
 public class Bridge {
     public static void main(String[] args) {
         Restaurant restaurant = new ChineseRestaurant(new FriedRice());

@@ -1,5 +1,10 @@
 package com.designpattern.behavioural.command;
 
+/**
+ * Design pattern that encapsulates a request as an object, thereby allowing for 
+ * parameterization of clients with different requests, queues, and operations. It decouples 
+ * the sender of a request from the object that actually performs the action. 
+ */
 public class CommandPattern {
     public static void main(String[] args) {
         Room room = new LivingRoom();

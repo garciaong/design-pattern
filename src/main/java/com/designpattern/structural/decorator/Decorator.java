@@ -1,7 +1,9 @@
 package com.designpattern.structural.decorator;
 
 /**
- * Attached new behaviors into an object with wrapper
+ * Design pattern that allows you to add new behaviors or responsibilities to an object 
+ * dynamically without modifying its original structure or affecting other objects of the 
+ * same class. 
  */
 public class Decorator {
     public static void main(String[] args) {

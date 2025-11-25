@@ -1,5 +1,9 @@
 package com.designpattern.creational.singleton;
 
+/**
+ * Design pattern that ensures a class has only one instance and provides a global point 
+ * of access to that instance.
+ */
 public class Singleton {
     public static void main(String[] args) {
         Service.getInstance();

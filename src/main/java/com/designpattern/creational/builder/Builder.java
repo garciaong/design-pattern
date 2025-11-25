@@ -2,6 +2,11 @@ package com.designpattern.creational.builder;
 
 import com.google.gson.Gson;
 
+/**
+ * Design pattern that facilitates the step-by-step construction of complex objects. 
+ * It separates the construction of an object from its representation, enabling the same 
+ * construction process to create different representations of an object.
+ */
 public class Builder {
     public static void main(String[] args) {
         Gson gson = new Gson();

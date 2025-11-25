@@ -1,5 +1,10 @@
 package com.designpattern.structural.adapter;
 
+/**
+ * Design pattern that enables objects with incompatible interfaces to work together. 
+ * It acts as a bridge between two interfaces, translating the interface of one class into 
+ * an interface that another class expects.
+ */
 public class Adapter {
     public static void main(String[] args) {
         AppV1Service appV1 = new AppV1Service();

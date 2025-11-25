@@ -1,8 +1,11 @@
 package com.designpattern.structural.facade;
 
 /**
-* Centralized place to all logic and encapsulate all the libraries and functions
-*/
+ * Design pattern that provides a simplified interface to a complex subsystem of classes, 
+ * a library, or a framework. It acts as a unified, high-level entry point that hides the 
+ * complexities of the underlying system from the client code. 
+ * Centralized place to all logic and encapsulate all the libraries and functions
+ * */
 public class Facade {
     public static void main(String[] args) {
         PaymentFacade payment = new PaymentFacade();

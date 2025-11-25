@@ -1,5 +1,9 @@
 package com.designpattern.behavioural.template_method;
 
+/**
+ * Design pattern that defines the skeleton of an algorithm in a base class, allowing 
+ * subclasses to override specific steps without changing the overall algorithm's structure.
+ */
 public class TemplateMethod {
     public static void main(String[] args) {
         SoftwareLoader software = new MicrosoftWord();
